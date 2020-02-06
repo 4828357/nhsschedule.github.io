@@ -12,6 +12,12 @@ td {
 font-size: 30px;
 }
 
+tr {
+font-size: 30px;
+align: center;
+text-align: center;
+}
+
 table {
 text-align: center;
 }
