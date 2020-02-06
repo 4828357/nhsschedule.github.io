@@ -8,6 +8,10 @@
    color: white;
  }
 
+td {
+font-size: 30px;
+}
+
  #footer {
      background-color: #2f2f2f;
      padding: 50px 0;
