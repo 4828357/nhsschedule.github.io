@@ -27,4 +27,30 @@
 </ul>
   <h2 style="text-decoration: none;color: white;"><a href="bindex.html" stlye="text-decoration: none;color: black;">Night Mode</a> Bell delay time: 1 Minute 19 Seconds</h2>
 </body>
+  <script>
+  let getBody = document.body;
+  let newElement = document.createElement("h1");
+  let date = new Date();
+  let currentHour = date.getHours();
+  let createMsg;
+
+  if (currentHour >= 4 && currentHour < 10) {
+    createMsg = "Good morning!";
+  } else if (currentHour >= 10 && currentHour < 12) {
+    createMsg = "Good day!";
+  } else if (currentHour >= 12 && currentHour < 18) {
+    createMsg = "Good afternoon!";
+  } else if (currentHour >= 18 && currentHour < 22) {
+    createMsg = "Good evening!";
+  } else if (currentHour >= 22 && currentHour < 24) {
+    createMsg = "Good night!";
+  } else if (currentHour >= 0 && currentHour < 4) {
+    createMsg = "Good night!";
+  }
+
+  let createEleTxt = document.createTextNode(createMsg);
+  newElement.appendChild(createEleTxt);
+  getBody.appendChild(newElement);
+  newElement.style.cssText = "text-align: center; font-family: arial; color: black";
+</script>
 </html>
