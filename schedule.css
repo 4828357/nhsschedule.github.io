@@ -1,32 +1,68 @@
 #header {
+
   background-color: darkblue;
+
   height: 100px;
+
   line-height: 100px;
+
  }
+
+
 
  h1 {
+
    color: white;
+
  }
 
+
+
 td {
+
 font-size: 30px;
+
 }
+
+
 
 tr {
+
 font-size: 30px;
+
 align: center;
+
 text-align: center;
+
 }
+
+
 
 table {
+
 text-align: center;
+
 }
 
+
+
  #footer {
+
      background-color: #2f2f2f;
+
      padding: 50px 0;
+
      align-content: center;
+
    }
+
 h2 {
+
   color: white;
+
+}
+.button {
+    -webkit-box-shadow: 2.5px 2.5px 2.5px 0;
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px 2.5px 0;
 }
