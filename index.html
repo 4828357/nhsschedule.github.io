@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Regular Bell Schedule</title>
-<link rel="stylesheet" type="text/css" href="schedule.css">
-</head>
-<body>
-  <div id="header">
-<a href="index.html" style="text-decoration: none; color: white;font-size: 30px;"><strong><center>Regular Bell Schedule</center></strong></a>
-</div>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph"><strong>P1 8:30 - 9:21</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph2"><strong>P2 9:26 - 10:13</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph3"><strong>P3 10:18 - 11:05</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph4"><strong>P4 11:10 - 11:57</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph5"><strong>P5 12:02 - 12:49</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph6"><strong>P6 12:54 - 1:41</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph7"><strong>P7 1:46 - 2:33</strong></p>
-<p style="font-size: 30px;text-align: center;font-family: cursive" id="paragraph8"><strong>P8 2:38 - 3:25</strong></p>
-<button type="button" class="button" style="text-align: justify; background-color: white;" onclick="night()">Toggle Night Mode</button>
-<script src="script.js"></script>
-</body>
+  <head>
+    <title>Schedules</title>
+    <link rel="stylesheet" type="text/css" href="schedule.css" />
+  </head>
+
+  <body>
+    <div id="header">
+      <h1 style="color: white;"><center>Schedules</center></h1>
+    </div>
+
+    <ul>
+      <li>
+        <a href="regular.html" style="text-decoration: underline; color: black;font-size: 30px;" id="diffName">Regular Schedule</a>
+      </li>
+
+      <li>
+        <a href="early.html" style="text-decoration: underline; color: black;font-size: 30px;" id="diffName2">Early Release Schedule</a>
+      </li>
+
+      <li>
+        <a href="club.html" style="text-decoration: underline; color: black;font-size: 30px;" id="diffName3">Club Schedule</a>
+      </li>
+
+      <li>
+        <a href="homeroom.html" style="text-decoration: underline; color: black;font-size: 30px;" id="diffName4">Homeroom Schedule</a>
+      </li>
+
+      <li>
+        <a href="third.html" style="text-decoration: underline; color: black;font-size: 30px;" id="diffName5">Third Period Meeting Schedule</a>
+      </li>
+
+      <!--<li><a href="guidance.html" style="text-decoration: underline;color: black;font-size: 30px">Guidance Schedule</a></li>-->
+    </ul>
+
+	  <button type="button" onclick="night()">Switch To Night Mode</button>
+	  
+	  <p><a href="bindex.html" stlye="text-decoration: none;color: black;">Night Mode</a></p>
+    <h2 style="text-decoration: none; color: Black;" id="diffName7"> Bell delay time: 1 Minute 19 Seconds</h2>
+    <script src="script.js"></script>
+  </body>
+  <script>
+    let getBody = document.body;
+    let newElement = document.createElement("h1");
+    let date = new Date();
+    let currentHour = date.getHours();
+    let createMsg;
+
+    if (currentHour >= 4 && currentHour < 10) {
+      createMsg = "Good morning!";
+    } else if (currentHour >= 10 && currentHour < 12) {
+      createMsg = "Good day!";
+    } else if (currentHour >= 12 && currentHour < 18) {
+      createMsg = "Good afternoon!";
+    } else if (currentHour >= 18 && currentHour < 22) {
+      createMsg = "Good evening!";
+    } else if (currentHour >= 22 && currentHour < 24) {
+      createMsg = "Good night!";
+    } else if (currentHour >= 0 && currentHour < 4) {
+      createMsg = "Good night!";
+    }
+
+    let createEleTxt = document.createTextNode(createMsg);
+    newElement.appendChild(createEleTxt);
+    getBody.appendChild(newElement);
+    newElement.style.cssText = "text-align: center; font-family: arial;";
+	newElement.id = "diffName6";
+  </script>
 </html>
