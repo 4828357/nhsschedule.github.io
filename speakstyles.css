@@ -1,0 +1,11 @@
+button {
+  border-radius: 5px;
+  padding: 3px;
+  background: linear-gradient(90deg, red, white, blue);
+}
+
+.theDivider {
+  position: absolute;
+  left: 46%;
+  text-align: center;
+}
