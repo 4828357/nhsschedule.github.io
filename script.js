@@ -34,6 +34,7 @@ function changeMode() {
 		document.getElementById("diffName5").style.color = "#252525";
 		document.getElementById("diffName6").style.color = "#252525";	
 		document.getElementById("diffName7").style.color = "#252525";
+		document.getElementById("diffName8").style.color = "#252525";
 		}
     return mode = "Light";
     } else if (mode == "Light") {
@@ -65,7 +66,8 @@ function changeMode() {
 		document.getElementById("diffName4").style.color = "White";
 		document.getElementById("diffName5").style.color = "White";
 		document.getElementById("diffName6").style.color = "White";	
-		document.getElementById("diffName7").style.color = "White";	
+		document.getElementById("diffName7").style.color = "White";
+		document.getElementById("diffName8").style.color = "White";
 		}
      return mode = "Dark";
     }
@@ -103,6 +105,7 @@ function whatMode() {
 		document.getElementById("diffName5").style.color = "#252525";
 		document.getElementById("diffName6").style.color = "#252525";	
 		document.getElementById("diffName7").style.color = "#252525";
+		document.getElementById("diffName8").style.color = "#252525";
 		}
 		} else {
 		document.body.style.backgroundColor = "#131313";
@@ -133,7 +136,8 @@ function whatMode() {
 		document.getElementById("diffName4").style.color = "White";
 		document.getElementById("diffName5").style.color = "White";
 		document.getElementById("diffName6").style.color = "White";	
-		document.getElementById("diffName7").style.color = "White";	
+		document.getElementById("diffName7").style.color = "White";
+		document.getElementById("diffName8").style.color = "White";
 		}
   }
  }
