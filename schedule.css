@@ -100,4 +100,20 @@ h1 center img {
 	font-size: 30px;
 	text-align: center;
 	font-family: cursive;
+	color: black;
+}
+
+.periodsDark {
+	font-size: 30px;
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+.nameLink {
+	color: black;
+}
+
+.nameLinkDark {
+
 }
