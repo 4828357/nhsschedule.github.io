@@ -110,10 +110,22 @@ h1 center img {
 	color: white;
 }
 
+.regMode {
+
+}
+
+.darkMode {
+
+}
+
 .nameLink {
+	text-decoration: underline; 
 	color: black;
+	font-size: 30px;
 }
 
 .nameLinkDark {
-
+	text-decoration: underline; 
+	color: white;
+	font-size: 30px;
 }
