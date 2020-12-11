@@ -20,11 +20,11 @@
       <script>
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
-        var x = canvas.width / 2;
-        var y = canvas.height / 2;
+        var x = canvas.width / 4;
+        var y = canvas.height / 4;
         var dx = 2;
         var dy = -2;
-        var ballSize = 5;
+        var ballSize = 10;
         var paddleHeight = 10;
         var paddleWidth = 75;
         var paddleX = (canvas.width - paddleWidth) / 2;
@@ -120,7 +120,6 @@
           else if (y + dy > canvas.height - ballSize) {
             if (x > paddleX && x < paddleX + paddleWidth) dy = -dy;
             else {
-              alert("Game Over");
               document.location.reload();
             }
           }
