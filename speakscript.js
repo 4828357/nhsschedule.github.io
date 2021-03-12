@@ -12,9 +12,9 @@ function letsSpeak() {
 
 function letsSpeakSecond(read) {
   let sentenceTest = read;
-  console.log(sentenceTest);
   console.log(sentenceTest.value);
-  var u1 = new SpeechSynthesisUtterance(sentenceTest);
+  console.log(sentenceTest.value);
+  var u1 = new SpeechSynthesisUtterance(sentenceTest.value);
   u1.lang = 'en-US';
   u1.pitch = 1;
   u1.rate = 0.01;
