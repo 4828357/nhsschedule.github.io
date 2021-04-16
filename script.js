@@ -36,6 +36,9 @@ function changeMode() {
 		document.getElementById("diffName7").style.color = "#252525";
 		document.getElementById("diffName8").style.color = "#252525";
 		}
+	    	if(document.getElementById("announcement")) {
+		document.getElementById("announcement").style.color = "#252525";
+		}
     return mode = "Light";
     } else if (mode == "Light") {
 	document.body.style.backgroundColor = "#131313";
@@ -68,6 +71,9 @@ function changeMode() {
 		//document.getElementById("diffName6").style.color = "White";	
 		document.getElementById("diffName7").style.color = "White";
 		document.getElementById("diffName8").style.color = "White";
+		}
+	    	if(document.getElementById("announcement")) {
+		document.getElementById("announcement").style.color = "White";
 		}
      return mode = "Dark";
     }
@@ -107,6 +113,9 @@ function whatMode() {
 		document.getElementById("diffName7").style.color = "#252525";
 		document.getElementById("diffName8").style.color = "#252525";
 		}
+		if(document.getElementById("announcement")) {
+		document.getElementById("announcement").style.color = "#252525";
+		}
 		} else {
 		document.body.style.backgroundColor = "#131313";
 		if(document.getElementById("paragraph")) {
@@ -138,6 +147,9 @@ function whatMode() {
 		//document.getElementById("diffName6").style.color = "White";	
 		document.getElementById("diffName7").style.color = "White";
 		document.getElementById("diffName8").style.color = "White";
+		}
+		if(document.getElementById("announcement")) {
+		document.getElementById("announcement").style.color = "White";
 		}
   }
  }
