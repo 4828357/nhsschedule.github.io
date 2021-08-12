@@ -32,7 +32,7 @@ function changeMode() {
 		document.getElementById("diffName3").style.color = "#252525";
 		document.getElementById("diffName4").style.color = "#252525";
 		document.getElementById("diffName5").style.color = "#252525";
-		//document.getElementById("diffName6").style.color = "#252525";	
+		document.getElementById("diffName6").style.color = "#252525";	
 		document.getElementById("diffName7").style.color = "#252525";
 		document.getElementById("diffName8").style.color = "#252525";
 		}
@@ -68,7 +68,7 @@ function changeMode() {
 		document.getElementById("diffName3").style.color = "White";
 		document.getElementById("diffName4").style.color = "White";
 		document.getElementById("diffName5").style.color = "White";
-		//document.getElementById("diffName6").style.color = "White";	
+		document.getElementById("diffName6").style.color = "White";	
 		document.getElementById("diffName7").style.color = "White";
 		document.getElementById("diffName8").style.color = "White";
 		}
@@ -109,7 +109,7 @@ function whatMode() {
 		document.getElementById("diffName3").style.color = "#252525";
 		document.getElementById("diffName4").style.color = "#252525";
 		document.getElementById("diffName5").style.color = "#252525";
-		//document.getElementById("diffName6").style.color = "#252525";	
+		document.getElementById("diffName6").style.color = "#252525";	
 		document.getElementById("diffName7").style.color = "#252525";
 		document.getElementById("diffName8").style.color = "#252525";
 		}
@@ -144,7 +144,7 @@ function whatMode() {
 		document.getElementById("diffName3").style.color = "White";
 		document.getElementById("diffName4").style.color = "White";
 		document.getElementById("diffName5").style.color = "White";
-		//document.getElementById("diffName6").style.color = "White";	
+		document.getElementById("diffName6").style.color = "White";	
 		document.getElementById("diffName7").style.color = "White";
 		document.getElementById("diffName8").style.color = "White";
 		}
