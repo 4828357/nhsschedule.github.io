@@ -35,6 +35,7 @@ function changeMode() {
 		document.getElementById("diffName6").style.color = "#252525";	
 		document.getElementById("diffName7").style.color = "#252525";
 		document.getElementById("diffName8").style.color = "#252525";
+		document.getElementById("diffName9").style.color = "#252525";
 		}
 	    	if(document.getElementById("announcement")) {
 		document.getElementById("announcement").style.color = "#252525";
@@ -71,6 +72,7 @@ function changeMode() {
 		document.getElementById("diffName6").style.color = "White";	
 		document.getElementById("diffName7").style.color = "White";
 		document.getElementById("diffName8").style.color = "White";
+		document.getElementById("diffName9").style.color = "White";
 		}
 	    	if(document.getElementById("announcement")) {
 		document.getElementById("announcement").style.color = "White";
@@ -112,6 +114,7 @@ function whatMode() {
 		document.getElementById("diffName6").style.color = "#252525";	
 		document.getElementById("diffName7").style.color = "#252525";
 		document.getElementById("diffName8").style.color = "#252525";
+		document.getElementById("diffName9").style.color = "#252525";
 		}
 		if(document.getElementById("announcement")) {
 		document.getElementById("announcement").style.color = "#252525";
@@ -147,6 +150,7 @@ function whatMode() {
 		document.getElementById("diffName6").style.color = "White";	
 		document.getElementById("diffName7").style.color = "White";
 		document.getElementById("diffName8").style.color = "White";
+		document.getElementById("diffName9").style.color = "White";
 		}
 		if(document.getElementById("announcement")) {
 		document.getElementById("announcement").style.color = "White";
